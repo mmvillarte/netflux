@@ -34,3 +34,18 @@ This repository has examples from my course [Reactive Programming with Spring Fr
 * Like Spring Framework Guru on [Facebook](https://www.facebook.com/springframeworkguru/)
 * Follow Spring Framework Guru on [Twitter](https://twitter.com/spring_guru)
 * Connect with John Thompson on [LinkedIn](http://www.linkedin.com/in/springguru)
+
+## Movies with dynamically assigned id, let's see the following
+### 2024-09-09 13:29:00.283  INFO 9600 --- [ntLoopGroup-3-9] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:9, serverValue:9}] to localhost:52369
+### Movie(id=66dedbfc5b18cc0518f22c7f, title=Silence of the Lambdas)
+### Movie(id=66dedbfc5b18cc0518f22c82, title=The fluxxinator)
+### Movie(id=66dedbfc5b18cc0518f22c81, title=Enter the Mono<Void>)
+### Movie(id=66dedbfc5b18cc0518f22c80, title=Aeon Flux)
+### Movie(id=66dedbfc5b18cc0518f22c83, title=Back to the future)
+### Movie(id=66dedbfc5b18cc0518f22c84, title=Meet the fluxes)
+### Movie(id=66dedbfc5b18cc0518f22c85, title=Lord of the fluxes)
+
+## Running locally it
+* http://localhost:8080/movies
+* curl -v http://localhost:8080/movies/66dedbfc5b18cc0518f22c7f
+
